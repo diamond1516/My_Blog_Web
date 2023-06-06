@@ -27,3 +27,4 @@ class PostAdmin(admin.ModelAdmin):
 @admin.register(models.About)
 class AboutAdmin(admin.ModelAdmin):
     list_filter = ('created_at', 'update_at')
+
